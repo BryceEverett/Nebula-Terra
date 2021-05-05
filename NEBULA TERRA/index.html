@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nebula Terra</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon"> 
+    <link
+      rel="shortcut icon"
+      href="https://img.icons8.com/fluent/2x/super-mario.png"
+    />
+  </head>
+  <body>
+    <div class="jumbotron jumbotron-fluid">
+      <div class="container">
+        <h1>Nebula Terra</h1>
+      </div>
+    </div>
+    <div class="main">
+      <div class="container">
+        <h2 id="textbox">Type OK to start</h2>
+        <input type="text" id="textInput" />
+        <br />
+        <input type="submit" id="firstInput" onclick="start()" value="ENTER" />
+        <input
+          type="submit"
+          id="secondInput"
+          onclick="classPick()"
+          value="ENTER"
+          style="display: none"
+        />
+        <p>
+          Refer to Console for Previous Events <br />
+          F12 for Console <br />
+          Refreshing the Page Resets the Game
+        </p>
+      </div>
+    </div>
+    <div class="instructions">
+      <!-- instructions on possible inputs -->
+      <div class="container">
+        <p>
+          Possible Inputs: <br />
+          walk to {enviroment} <br />
+          run to {enviroment} <br />
+          dodge right <br />
+          dodge left <br />
+          dodge backwards <br />
+          dodge forwards <br />
+          block <br />
+          parry <br />
+          light attack {npc} <br />
+          heavy attack {npc} <br />
+          throw {item} at {npc} <br />
+          collect {item} <br />
+          use {item} <br />
+          examine {item} <br />
+          interact {enviroment} <br />
+          examine {enviroment} <br />
+          light attack {enviroment} <br />
+          heavy attack {enviroment} <br />
+          throw {item} at {enviroment} <br />
+        </p>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
