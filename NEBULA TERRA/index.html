@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Nebula Terra</title>
     <link rel="stylesheet" href="style.css" />
-    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon"> 
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />
     <link
       rel="shortcut icon"
       href="https://img.icons8.com/fluent/2x/super-mario.png"
@@ -22,6 +22,7 @@
         <h2 id="textbox">Type OK to start</h2>
         <input type="text" id="textInput" />
         <br />
+        <br />
         <input type="submit" id="firstInput" onclick="start()" value="ENTER" />
         <input
           type="submit"
@@ -30,10 +31,25 @@
           value="ENTER"
           style="display: none"
         />
+        <input
+          type="submit"
+          id="thirdInput"
+          onclick="gamestart()"
+          value="START"
+          style="display: none"
+        />
+        <input
+          type="submit"
+          id="fourthInput"
+          onclick="gamestart()"
+          value="ENTER"
+          style="display: none"
+        />
         <p>
           Refer to Console for Previous Events <br />
           F12 for Console <br />
-          Refreshing the Page Resets the Game
+          Refreshing the Page Resets the Game<br />
+          Inputs are Case Sensitive
         </p>
       </div>
     </div>
@@ -42,6 +58,7 @@
       <div class="container">
         <p>
           Possible Inputs: <br />
+          examine area <br />
           walk to {enviroment} <br />
           run to {enviroment} <br />
           dodge right <br />
@@ -61,6 +78,7 @@
           light attack {enviroment} <br />
           heavy attack {enviroment} <br />
           throw {item} at {enviroment} <br />
+          open {enviroment / item}
         </p>
       </div>
     </div>

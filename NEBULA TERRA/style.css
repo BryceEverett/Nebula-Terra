@@ -1,6 +1,6 @@
 body{
     margin: 0;
-    background-image: url(images/giphy.gif);
+    background-image: url(images/background1.gif);
     background-size: cover;
 }
 
@@ -87,5 +87,13 @@ body{
     src: url(content/Lemon\ Friday.ttf);
   }
   
+  @font-face{
+    font-family: Ancient Medium;
+    src: url(content/Ancient\ Medium.ttf);
+  }
+
+  #textbox{
+    font-family: Ancient Medium;
+  }
 
   
